@@ -1,0 +1,8 @@
+type: simple
+minThreads: 1
+maxThreads: 2
+connector:
+  type: http
+  port: 0
+applicationContextPath: /service
+adminContextPath: /secret
